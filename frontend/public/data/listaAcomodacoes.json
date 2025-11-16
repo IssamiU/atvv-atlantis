@@ -1,0 +1,34 @@
+[
+  {
+    "NomeAcomodacao": "Casal Simples",
+    "CamaCasal": 1,
+    "CamaSolteiro": 0,
+    "Climatizacao": true,
+    "Garagem": 1,
+    "Suite": 1
+  },
+  {
+    "NomeAcomodacao": "Família Simples",
+    "CamaCasal": 1,
+    "CamaSolteiro": 2,
+    "Climatizacao": true,
+    "Garagem": 1,
+    "Suite": 1
+  },
+  {
+    "NomeAcomodacao": "Família Plus",
+    "CamaCasal": 2,
+    "CamaSolteiro": 1,
+    "Climatizacao": true,
+    "Garagem": 2,
+    "Suite": 2
+  },
+  {
+    "NomeAcomodacao": "Família Super",
+    "CamaCasal": 2,
+    "CamaSolteiro": 2,
+    "Climatizacao": true,
+    "Garagem": 2,
+    "Suite": 3
+  }
+]
