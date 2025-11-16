@@ -7,11 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependências
 node_modules
+**/node_modules/
+
+# Build
 dist
 dist-ssr
 *.local
 .env
+**/.env
+backend/.env
+frontend/.env
 
 # Editor directories and files
 .vscode/*
@@ -23,3 +30,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Sistema Operacional
+Thumbs.db
