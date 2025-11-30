@@ -1,30 +1,19 @@
-# Hotel Atlantis - Sistema de Gerenciamento
+# atvv-atlantis
 
-Sistema completo de gerenciamento de clientes e hospedagens desenvolvido com React, Node.js e MongoDB.
-
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - **Node.js**: versão 18.x ou superior
 - **npm**: versão 9.x ou superior
 - **MongoDB Atlas**: conta gratuita (ou MongoDB local)
 
-## Instalação e Configuração
-
-### 1. Clonar o Repositório
-
-```bash
-git clone https://github.com/seu-usuario/atvv-atlantis.git
-cd atvv-atlantis
-```
-
-### 2. Configurar Backend
+### Configurar Backend
 
 ```bash
 cd backend
 npm install
 ```
 
-### 3. Configurar Variáveis de Ambiente
+### Configurar Variáveis de Ambiente
 
 Copie o arquivo `.envExemplo` e renomeie para `.env`:
 
@@ -47,7 +36,7 @@ MONGODB_URI=sua_url_do_mongodb_atlas_aqui
 4. Clique em "Connect" → "Connect your application"
 5. Copie a URL de conexão (formato: `mongodb+srv://usuario:senha@cluster.mongodb.net/nomedobanco`)
 
-### 4. Configurar Frontend
+### Configurar Frontend
 
 ```bash
 cd ../frontend
@@ -56,7 +45,7 @@ npm install
 
 ## Executando o Projeto
 
-### Opção 1: Executar Backend e Frontend Separadamente
+### Executar Backend e Frontend Separadamente
 
 **Terminal 1 - Backend:**
 ```bash
